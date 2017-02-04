@@ -1,0 +1,116 @@
+****************************************************
+
+SingleNodeAtATime
+
+Size of Given input Graph is : 6
+Path Matrix :
+|	(1,)		(1,2,)		(1,4,3,)		(1,4,)		(1,4,3,5,)		(1,6,)		|
+|	(2,3,5,1,)		(2,)		(2,3,)		(2,3,4,)		(2,3,5,)		(2,6,)		|
+|	(3,5,1,)		(3,5,2,)		(3,)		(3,4,)		(3,5,)		(3,6,)		|
+|	(4,1,)		(4,2,)		(4,3,)		(4,)		(4,3,5,)		(4,2,6,)		|
+|	(5,1,)		(5,2,)		(5,3,)		(5,4,)		(5,)		(5,2,6,)		|
+|	(6,3,5,1,)		(6,2,)		(6,3,)		(6,4,)		(6,3,5,)		(6,)		|
+Hop Count Matrix :
+|0	1	2	1	3	1		|
+|3	0	1	2	2	1		|
+|2	2	0	1	1	1		|
+|1	1	1	0	2	2		|
+|1	1	1	1	0	2		|
+|3	1	1	1	2	0		|
+Congestion Edge Matrix :
+|0.00	13.02	-nan	16.00	-nan	16.66		|
+|-nan	0.00	12.77	-nan	-nan	7.53		|
+|-nan	-nan	0.00	20.90	10.83	22.81		|
+|26.96	9.26	5.43	0.00	-nan	-nan		|
+|7.82	14.46	35.41	20.51	0.00	-nan		|
+|-nan	11.36	23.83	18.09	-nan	0.00		|
+
+Predicted Path Delay Matrix :
+|0	7	9	7	13	9		|
+|12	0	5	13	9	3		|
+|7	9	0	8	4	6		|
+|9	4	2	0	6	7		|
+|3	5	10	10	0	8		|
+|15	5	8	10	12	0		|
+
+Final Congestion Actual Delay Matrix :
+|0.00	13.02	21.43	16.00	32.26	16.66		|
+|31.42	0.00	12.77	33.68	23.60	7.53		|
+|18.65	25.29	0.00	20.90	10.83	22.81		|
+|26.96	9.26	5.43	0.00	16.27	16.79		|
+|7.82	14.46	35.41	20.51	0.00	21.98		|
+|42.48	11.36	23.83	18.09	34.66	0.00		|
+*****************Final Output :*****************
+
+Shorest Path between source 6 and destination 3 is: 8.
+
+
+Shorest Path between source 6 and destination 3 is: 23.83.
+
+Hop Count for source 6 and destination 3 is: 1.
+
+Total Running Time of the Algorithm in Seconds is 0.0006230
+
+
+Total no.of Key-Basic Operations are : 1072
+
+*********************************************
+****************************************************
+
+GivenExampleStrategy
+
+Size of Given input Graph is : 6
+Path Matrix :
+|	(1,)		(1,2,)		(1,4,3,)		(1,4,)		(1,4,3,5,)		(1,6,)		|
+|	(2,3,5,1,)		(2,)		(2,3,)		(2,3,4,)		(2,3,5,)		(2,6,)		|
+|	(3,5,1,)		(3,5,2,)		(3,)		(3,4,)		(3,5,)		(3,6,)		|
+|	(4,1,)		(4,2,)		(4,3,)		(4,)		(4,3,5,)		(4,2,6,)		|
+|	(5,1,)		(5,2,)		(5,3,)		(5,4,)		(5,)		(5,2,6,)		|
+|	(6,3,5,1,)		(6,2,)		(6,3,)		(6,4,)		(6,3,5,)		(6,)		|
+Hop Count Matrix :
+|0	1	2	1	3	1		|
+|3	0	1	2	2	1		|
+|2	2	0	1	1	1		|
+|1	1	1	0	2	2		|
+|1	1	1	1	0	2		|
+|3	1	1	1	2	0		|
+
+Congestion Edge Matrix :
+|0.00	17.50	na	34.12	na	22.50		|
+|na	0.00	55.00	na	na	29.00		|
+|na	na	0.00	104.00	109.60	-nan		|
+|-nan	21.33	48.00	0.00	na	na		|
+|43.80	-nan	-nan	33.33	0.00	na		|
+|na	25.00	-nan	23.33	na	0.00		|
+
+Predicted Path Delay Matrix :
+|0	7	9	7	13	9		|
+|12	0	5	13	9	3		|
+|7	9	0	8	4	6		|
+|9	4	2	0	6	7		|
+|3	5	10	10	0	8		|
+|15	5	8	10	12	0		|
+
+Congestion Actual Delay Matrix :
+|0.00	17.50	82.12	34.12	191.73	22.50		|
+|208.40	0.00	55.00	159.00	164.60	29.00		|
+|153.40	109.60	0.00	104.00	109.60	-nan		|
+|-nan	21.33	48.00	0.00	157.60	50.33		|
+|43.80	-nan	-nan	33.33	0.00	29.00		|
+|153.40	25.00	-nan	23.33	109.60	0.00		|
+*****************Final Output :*****************
+
+Shorest Path between source 6 and destination 3 is: 8.
+
+
+Shorest Path between source 6 and destination 3 is: 0.00.
+
+
+Hop Count for source 6 and destination 3 is: 1.
+
+Total Running Time of the Algorithm in Seconds is 0.0005880
+
+
+Total no.of Key-Basic Operations are : 244
+
+***********************************
